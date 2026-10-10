@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practice row_col_span</title>
+</head>
+<body>
+  <!-- Rowspan  -->
+   <h3>College Class Timetable</h3>
+   <table border="2">
+    <thead>
+      <tr>
+        <th>Customer</th>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3">Mayur</td>
+        <td>Laptop</td>
+        <td>1</td>
+        <td>&#8377;45000</td>
+      </tr>
+      <tr>
+        <td>Mouse</td>
+        <td>2</td>
+        <td>&#8377;800</th>
+      </tr>
+      <tr>
+        <td>Keyboard</td>
+        <td>1</td>
+        <td>&#8377;1200</th>
+      </tr>
+
+
+      <tr>
+        <td rowspan="2">Rahul</td>
+        <td>Mobile</td>
+        <td>1</td>
+        <td>&#8377;15000</td>
+      </tr>
+      <tr>
+        <td>Headphone</td>
+        <td>2</td>
+        <td>&#8377;2000</th>
+      </tr>
+    </tbody>
+   </table>
+
+   <br>
+   <hr>
+   <br>
+
+  <!-- Colspan  -->
+    <table border="2">
+      <thead>
+        <tr>
+          <th colspan="4">ABC Shopping Store</th>
+        </tr>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Laptop</td>
+          <td>1</td>
+          <td>&#8377;40000</td>
+          <td>&#8377;40000</td>
+        </tr>
+
+        <tr>
+          <td>Mouse</td>
+          <td>2</td>
+          <td>&#8377;500</td>
+          <td>&#8377;1000</td>
+        </tr>
+
+        <tr>
+          <td>Keyboard</td>
+          <td>1</td>
+          <td>&#8377;1200</td>
+          <td>&#8377;1200</td>
+        </tr>
+
+        <tr>
+          <td>Headphones</td>
+          <td>2</td>
+          <td>&#8377;800</td>
+          <td>&#8377;1600</td>
+        </tr>
+
+        <tr>
+          <td colspan="3">Total Amount</td>
+          <td>&#8377;43000</td>
+        </tr>
+
+        <tr>
+          <td colspan="2">Payment Method</td>
+          <td colspan="2">UPI</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Row span nd Col span -->
+     <table border="2">
+      <h3>School Timetable</h3>
+      <thead>
+        <tr>
+          <th rowspan="2">Time</th>
+          <th colspan="6">Days</th>
+        </tr>
+        <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>10:15-11:00</td>
+          <td>Math</td>
+          <td>English</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td>English</td>
+          <td>Computer</td>
+        </tr>
+
+        <tr>
+          <td>11:00-11:45</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td>English</td>
+          <td>Computer</td>
+          <td>Math</td>
+          <td>Science</td>
+        </tr>
+
+        <tr>
+          <td>11:45-12:00</td>
+          <th colspan="6">Interval</th>
+        </tr>
+
+        <tr>
+          <td>12:00-12:30</td>
+          <td>English</td>
+          <td>Computer</td>
+          <td>Math</td>
+          <td>English</td>
+          <td>Science</td>
+          <td>Math</td>
+        </tr>
+
+        <tr>
+          <td>12:30-01:00</td>
+          <td>History</td>
+          <td>Geography</td>
+          <td>Computer</td>
+          <td>Science</td>
+          <td>History</td>
+          <td>English</td>
+        </tr>
+
+        <tr>
+          <td>01:00-01:45</td>
+          <th colspan="6"><br>Lunch Break<br><br></th>
+        </tr>
+
+        <tr>
+          <td>01:45-02:15</td>
+          <td>Computer</td>
+          <td>Science</td>
+          <td>History</td>
+          <td>Mathematics</td>
+          <td>Computer</td>
+          <td>Drawing</td>
+        </tr>
+
+        <tr>
+          <td>02:15-02:45</td>
+          <td>Geography</td>
+          <td>History</td>
+          <td>Geography</td>
+          <td>English</td>
+          <td>Mathematics</td>
+          <td>Library</td>
+        </tr>
+
+        <tr>
+          <td>02:45-03:00</td>
+          <th colspan="6">Interval</th>
+        </tr>
+
+        <tr>
+          <td>03:00-03:30</td>
+          <td>Marathi</td>
+          <td>Mathematics</td>
+          <td>Marathi</td>
+          <td>History</td>
+          <td>Marathi</td>
+          <td>Sports</td>
+        </tr>
+
+        <tr>
+          <td>03:30-04:00</td>
+          <td>Phy-Education</td>
+          <td>Drawing</td>
+          <td>Games</td>
+          <td>Library</td>
+          <td>Phy-Education</td>
+          <td>Sports</td>
+        </tr>
+      </tbody>
+     </table>
+</body>
+</html>
