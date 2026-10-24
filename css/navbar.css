@@ -1,0 +1,16 @@
+.sticky_navbar{
+  position: sticky;
+  top: 0px;
+}
+
+.navbar{
+  padding: 10px;
+  border: 1px solid black;
+  background-color: rgb(187, 246, 184);
+}
+
+.navbar a{
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}

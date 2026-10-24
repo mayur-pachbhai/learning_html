@@ -1,0 +1,12 @@
+body{
+  background-color: rgb(242, 252, 245);
+}
+
+h1{
+  text-decoration: underline;
+}
+
+.image{
+  width: 350px;
+  margin: 10px;
+}
