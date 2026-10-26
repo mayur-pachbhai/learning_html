@@ -3,6 +3,9 @@
   margin: 0;
 }
 
+body{
+  background-color: rgb(250, 254, 250);
+}
 .hero{
   background-image: url("../images/home_hero_image1.jpg");
   height: 665px;
@@ -23,4 +26,70 @@
 .hero-text{
  margin-top: 20px;
  line-height: 25px;
+}
+
+.about{
+  display: flex;
+}
+
+.about-img img{
+  margin: 10px;
+  height: 400px;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+
+.about-img img:hover{
+  transform: scale(1.02);
+}
+
+.about-content{
+  margin: 30px;
+  line-height: 25px;
+}
+
+.about-title{
+  text-align: center;
+  font-weight: 900;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+.about-text{
+  padding: 20px;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.services-title{
+  /* text-align: center; */
+  font-weight: 900;
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+.services-content{
+  margin: 0 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services-card{
+  width: 45%;
+  margin: 10px 0;
+  padding: 10px;
+  line-height: 25px;
+  border-bottom: 2px solid black;
+  transition: transform 1s ease;
+}
+
+.card-description{
+  margin: 10px;
+}
+
+.services-card:hover{
+  background-color: rgb(231, 255, 237);
+  transform: scale(1.1);
+  border-radius: 10px;
 }

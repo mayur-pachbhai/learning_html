@@ -1,11 +1,12 @@
 .sticky_navbar{
   position: sticky;
   top: 0px;
+  z-index: 1000;
 }
 
 .navbar{
   padding: 5px;
-  background-color: rgb(227, 234, 227);
+  background-color: rgb(163, 204, 162);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -17,7 +18,7 @@
 }
 .nav-logo img{
   height: 50px;
-  background-color: rgb(242, 252, 245);
+  background-color:white;
   padding: 2px;
   border-radius: 10px;
 }
@@ -31,7 +32,7 @@
 .nav-content a{
   color: black;
   text-decoration: none;
-  background-color: rgb(242, 252, 245);
+  background-color:white;
   border-radius: 20px;
   padding: 8px;
   margin-left: 20px;
