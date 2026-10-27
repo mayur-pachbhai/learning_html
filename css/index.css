@@ -4,7 +4,19 @@
 }
 
 body{
-  background-color: rgb(250, 254, 250);
+  /* background-color: rgb(250, 254, 250); */
+  /* font-family: "Inter", sans-serif; */
+}
+
+button{
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #5D8B50;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
 }
 .hero{
   background-image: url("../images/home_hero_image1.jpg");
@@ -30,6 +42,7 @@ body{
 
 .about{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .about-img img{
@@ -46,6 +59,8 @@ body{
 .about-content{
   margin: 30px;
   line-height: 25px;
+  /* height: 400px; */
+  width: 700px;
 }
 
 .about-title{
@@ -56,40 +71,131 @@ body{
 }
 
 .about-text{
-  padding: 20px;
+  margin: 20px 10px;
   font-size: 1.2rem;
   text-align: justify;
 }
 
 .services-title{
-  /* text-align: center; */
+  text-align: center;
   font-weight: 900;
   font-family: sans-serif;
   margin: 10px;
 }
 
 .services-content{
-  margin: 0 100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 10px;
 }
 
 .services-card{
-  width: 45%;
-  margin: 10px 0;
+  width: 600px;
+  margin: 10px 20px;
   padding: 10px;
   line-height: 25px;
   border-bottom: 2px solid black;
-  transition: transform 1s ease;
+  transition: transform 0.5s ease;
 }
 
-.card-description{
+.service-description{
   margin: 10px;
+  text-align: justify;
 }
 
 .services-card:hover{
   background-color: rgb(231, 255, 237);
   transform: scale(1.1);
   border-radius: 10px;
+}
+
+.crops-title{
+  text-align: center;
+  font-weight: 900;
+  font-family: sans-serif;
+  /* margin: 10px; */
+}
+
+.crop-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+.crops-card{
+  background-color: rgb(231, 255, 237);
+  width: 400px;
+  height: auto;
+  margin: 10px;
+}
+
+.crop-image{
+  overflow: hidden;
+  border-radius: 10px;
+}
+.crop-image img{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+
+.crop-image img:hover{
+  transform: scale(1.1);
+}
+
+.crop-text{
+  padding: 0 10px;
+  margin: 5px;
+}
+.crop-button{
+  width: fit-content;
+}
+.crop-button {
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #5D8B50;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  display: table;
+  margin: 10px auto;
+}
+
+
+.footer{
+  background-color: rgb(43, 43, 43);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.footer-title{
+  font-family: sans-serif;
+}
+.footer-content{
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contact{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.contact .fa-solid{
+  padding: 10px;
+  font-size: 1.4rem;
+}
+
+.contact-text{
+  padding: 10px;
+  font-size: 1.2rem;
+  color: rgb(209, 209, 209);
 }

@@ -6,6 +6,8 @@
     <title>Homepage</title>
     <link rel="stylesheet" href="css\navbar.css" type="text/css">
     <link rel="stylesheet" href="css\index.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     
   </head>
   <body>
@@ -73,63 +75,101 @@
 
           <div class="services-content">
             <div class="services-card">
-              <h3 class="card-title">Crop Guidance</h3>
-              <p class="card-description">Information about different crops, suitable growing seasons, soil requirements, and cultivation methods to help farmers make better decisions.</p>
+              <h3 class="service-name">Crop Guidance</h3>
+              <p class="service-description">Information about different crops, suitable growing seasons, soil requirements, and cultivation methods to help farmers make better decisions.</p>
             </div>
 
             <div class="services-card">
-              <h3 class="card-title">Irrigation Management</h3>
-              <p class="card-description">Discover efficient irrigation methods and water conservation techniques to reduce water waste and provide crops with the water they need.</p>
+              <h3 class="service-name">Irrigation Management</h3>
+              <p class="service-description">Discover efficient irrigation methods and water conservation techniques to reduce water waste and provide crops with the water they need.</p>
             </div>
 
             <div class="services-card">
-              <h3 class="card-title">Modern Farming Techniques</h3>
-              <p class="card-description">Explore modern agricultural practices, improved equipment, and sustainable techniques that can make farming more efficient.</p>
+              <h3 class="service-name">Modern Farming Techniques</h3>
+              <p class="service-description">Explore modern agricultural practices, improved equipment, and sustainable techniques that can make farming more efficient.</p>
             </div>
 
             <div class="services-card">
-              <h3 class="card-title">Seeds and Fertilizers</h3>
-              <p class="card-description">Learn about quality seeds, organic fertilizers, and proper nutrient management to support healthy plant growth and improve crop productivity.</p>
+              <h3 class="service-name">Seeds and Fertilizers</h3>
+              <p class="service-description">Learn about quality seeds, organic fertilizers, and proper nutrient management to support healthy plant growth and improve crop productivity.</p>
             </div>
 
           </div>
         </div>
-        <!-- <h1>Our Services</h1>
-        <ol>
-          <li><h4>Crop Management</h4></li>
-          <li><h4>Soil Testing and Fertilizers</h4></li>
-          <li><h4>Weather Updates</h4></li>
-          <li><h4>Market Price Updates</h4></li>
-          <li><h4>Organic Farming</h4></li>
-          <li><h4>Agricultural Tips</h4></li>
-        </ol> -->
       </section>
       <!-- Services section End -->
 
       <!-- Crop section start -->
       <section>
-        <h1>Crops</h1>
-        <picture>
-          <img class="image" src="images/wheat.jpg" alt="Wheat Crop image" />
-          <img class="image" src="images/rice.jpg" alt="Rice crop image" />
-          <img class="image" src="images/cotton.jpg" alt="Cotton Crop Image" />
-          <img class="image" src="images/tomato.jpg" alt="Tomato crop image" />
-        </picture>
+        <div class="crops">
+          <h1 class="crops-title">Explore Crops</h1>
+
+         <div class="crop-content">
+           <div class="crops-card">
+            <div class="crop-image">
+            <img src="images/tomato.jpg" alt="tomato crop">
+            </div>
+            <div class="crop-text">
+            <h3 class="crop-name">Tomato</h3>
+            <p class="crop-description">A popular vegetable crop used in many everyday dishes.</p>
+            </div>
+          </div>
+
+          <div class="crops-card">
+            <div class="crop-image">
+            <img src="images/cotton.jpg" alt="tomato crop">
+            </div>
+            <div class="crop-text">
+            <h3 class="crop-name">Cotton</h3>
+            <p class="crop-description">A major commercial crop used in textile and clothing production.</p>
+            </div>
+          </div>
+
+          <div class="crops-card">
+            <div class="crop-image">
+            <img src="images/wheat.jpg" alt="tomato crop">
+            </div>
+            <div class="crop-text">
+            <h3 class="crop-name">Wheat</h3>
+            <p class="crop-description">An important food grain used to produce flour and other food products.</p>
+            </div>
+          </div>
+          </div> 
+          <a class="crop-button" href="crops.html">View All Crops</a>
+        </div>
       </section>
       <!-- Crop section end -->
-      <hr />
     </main>
 
-    <footer class="footer">
-      <h1>Contact Us</h1>
+    <footer>
+      <div class="footer">
+        <h1 class="footer-title">CONTACT INFO</h1>
+        <div class="footer-content">
+          <div class="contact">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="address contact-text">123 Grant St, Ste R,Denver, CO 80203</p>
+          </div>
+
+          <div class="contact">
+          <i class="fa-solid fa-phone"></i>
+            <p class="phone contact-text">+1 (212) 555 - 4831</p>
+          </div>
+
+          <div class="contact">
+            <i class="fa-solid fa-envelope"></i>
+            <p class="email contact-text">mayur@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <!-- <h1>Contact Us</h1>
       <ul>
         <li><b>Phone -</b> 4654555415</li>
         <li><b>email - </b>agriconnect@gmail.com</li>
         <li>
           <b>Address -</b> At post Chorakhali, <br />tal-Kalamb,
-          dist-Dharashiv,<br />413405
+          dist-Dharashiv,<br/>413405
         </li>
-      </ul>
+      </ul> -->
     </footer>
   </body>
 </html>
