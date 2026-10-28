@@ -1,0 +1,39 @@
+.footer{
+  background-color: rgb(43, 43, 43);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.footer-title{
+  font-family: sans-serif;
+}
+.footer-content{
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer-contact{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.footer-contact .fa-solid{
+  padding: 10px;
+  font-size: 1.4rem;
+}
+
+.contact-text{
+  padding: 10px;
+  font-size: 1.2rem;
+  color: rgb(209, 209, 209);
+}
+
+.footer-copyright{
+  display: flex;
+}
+.fa-copyright{
+  padding: 0 5px;
+}
